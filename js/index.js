@@ -174,11 +174,11 @@ document.querySelector('#searchName').oninput = searchStaff;
 
 
 //validation
+var valid = true;
+valid = kiemTraRong(Staff.tenNV,'#name','Tên Nhân Viên');
 
-valid = kiemTraRong(createStaff.taiKhoanNV,'#tknv','Tài Khoản Nhân Viên');
 
-
-
+  
 
 
 

@@ -17,13 +17,12 @@ function Staff(
   this.chucVu = chucVu;
   this.gioLam = gioLam;
   this.tongLuong = function () {
-    var luong = this.luongCB * this.gioLam;
     if (chucVu == "Sếp") {
-      return luong * 3;
+      return (this.luong * 3);
     } else if (chucVu == "Trưởng phòng") {
-      return luong * 2;
+      return (this.luong * 2);
     } else {
-      return luong;
+      return this.luong;
     }
   };
   this.xepLoaiNV = function () {
